@@ -1,0 +1,48 @@
+.page-up-btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    z-index: 2;
+}
+
+@media screen and (max-width:768px) {
+    .hide--section  {
+        display: flex;
+    }
+}
+
+
+.up-btn {
+    width: 55px;
+    height: 55px;
+    border: var(--primary-color) 1px solid;
+
+    border-radius: 100%;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+
+    animation: revialdBtn .5s ease;
+}
+
+
+.up-btn--reviald {
+    display: flex;
+}
+
+@keyframes revialdBtn{
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

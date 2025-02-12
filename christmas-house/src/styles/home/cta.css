@@ -1,0 +1,167 @@
+.cta {
+  max-width: 1440px;
+  min-width: 380px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/img-cta/cta-snow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.cta__bg-layer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/img-cta/picture-cta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 60px 0;
+}
+
+.cta__wrapper {
+  max-width: 426px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 21px; /*it has to be 20px*/
+
+  padding: 120px 0;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 35px; /*it has to be 36.48px*/
+  letter-spacing: 3.85px;
+  text-transform: uppercase;
+
+  color: #ffff;
+
+  text-align: center;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 32px;
+
+  background-color: var(--hero-btn-bg-color);
+
+  border-radius: 20px;
+  
+  cursor: pointer;
+
+  transition: background-color .5s ease;
+}
+@media (pointer:fine) { 
+.cta-btn:hover {
+  background-color: #fff;
+}
+}
+.cta-btn-title {
+  font-size: 12px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 15.6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: var(--hero-font-color);
+
+  transition: color .5s ease;
+}
+
+@media (pointer:fine) { 
+.cta-btn:hover .cta-btn-title{
+  color: var(--hero-btn-bg-color);
+}
+}
+
+.cta-countdown__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 9.8px; /*according maket it has to be 8px*/
+}
+
+.cta-countdown-title {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+
+  color: #ffff;
+}
+
+.cta-countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 12px 12px 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+}
+
+.cta-countdown-item {
+  width: 80px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cta-countdown-item-time {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing:5px;
+  text-transform: uppercase;
+  
+  color: #ffff;
+}
+
+.cta-countdown-item-title {
+  font-size: 12px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 15.6px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+
+  color: #ffff;
+}
+
+.cta-style-line {
+  width: 1px;
+  height: 20px;
+  background-color: #ffff;
+}

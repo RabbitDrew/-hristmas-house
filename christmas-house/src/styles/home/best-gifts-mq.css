@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .best-gifts {
+        padding: 60px 60px;
+      }
+
+      .best-gifts__wrapper { 
+        gap: 18.6px; /*it has to be 20px*/
+      }
+}
+
+
+@media screen and (max-width: 767px) {
+    .best-gifts {
+        padding: 60px 8px;
+      }
+
+      .best-gifts__wrapper { 
+        gap: 18.5px; /*it has to be 20px*/
+      }
+}

@@ -1,0 +1,149 @@
+.footer {
+  max-width: 1440px;
+  min-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 82px;
+
+  gap: 60px;
+
+  background-color: #ffffff;
+}
+
+.footer-contacts__wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.contacts-item {
+  width: 417.33px;
+  height: 204px; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 17px; /*it has to be 12px*/
+
+  background-color: #ecf3f8;
+
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact-item-img {
+  /*change*/
+  width: 80px;
+  height: 80px;
+}
+
+.contact-item-title {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 24.32px;
+  letter-spacing: 3.8px;
+  text-transform: uppercase;
+
+  color: #181c29;
+
+  text-decoration: none;
+
+  transition: color 0.5s ease;
+}
+@media (pointer:fine) { 
+.contacts-item:hover .contact-item-title {
+  color: var(--primary-color);
+}
+}
+.contact-item-subtitle {
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 24.32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #181c29;
+
+  transition: color 0.5s ease;
+}
+@media (pointer:fine) { 
+.contacts-item:hover .contact-item-subtitle {
+  color: var(--primary-color);
+}
+}
+.footer-info__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.info-social__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.info-social__wrapper-svg {
+  width: 40px; /*change*/
+  height: 40px; /*change*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+.social-svg {
+    stroke: #181C29;
+    transition: stroke .5s ease;
+}
+@media (pointer:fine) { 
+.info-social__wrapper-svg:hover .social-svg {
+    stroke: var(--primary-color);
+}
+}
+.copyright-title {
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 23.68px;
+  text-transform: capitalize;
+  color: #181c29;
+}
+
+.school-title-link {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #181c29;
+  transition: color .5s ease;
+}
+
+
+.lowercase {
+  text-transform: none;
+}
+@media (pointer:fine) { 
+.school-title-link:hover {
+    color: var(--primary-color);
+}
+}

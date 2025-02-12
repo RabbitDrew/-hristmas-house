@@ -1,0 +1,22 @@
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    .header__wrapper {
+        padding: 12px 8px;
+      }
+}
+
+
+@media screen and (max-width:768px) {
+    .nav--hide {
+        display: none;
+    } 
+
+    .header-adpt-nav__wrapper {
+        display: flex;
+    }
+
+    .header__wrapper {
+        padding: 11px 8px; /*it hasw to be 12px and 8px*/
+      }
+    
+}
