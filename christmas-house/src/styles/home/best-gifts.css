@@ -1,0 +1,148 @@
+.best-gifts {
+  max-width: 1440px;
+  min-width: 380px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 82px;
+
+  background-image: url(../../assets/img-best-gifts/snow-gifts.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.best-gifts__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 18.8px; /*it has to be 20px*/
+}
+
+.best-gifts-title__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.best-gifts-caption {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+
+  color: #ffff;
+}
+
+.best-gifts-title {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 36.48px;
+  letter-spacing: 3.85px;
+  text-transform: uppercase;
+
+  color: #ffff;
+}
+
+.best-gifts-cards__wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.best-gifts-card {
+  width: 310px; /*change*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ecf3f8;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+.best-gifts-img__wrapper {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.best-gifts-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.best-gifts-card-title__wrapper {
+  width: 100%;
+  height: 112px;
+  padding: 20px 20px 44px 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 9px;/*it has to be 8px according maket*/
+  border-radius: 20px;
+}
+
+.best-gifts-card-title {
+    font-size: 12px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  
+}
+
+.title-color--work {
+    color: #4361FF;
+}
+.title-color--health {
+    color: #06A44F;
+}
+.title-color--harmony {
+    color: #FF43F7;
+}
+
+
+.best-gifts-card-subtitle {
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    line-height: 24.32px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  
+    color: #000;
+
+    transition: color .5s ease;
+}
+
+@media (pointer:fine) { 
+.best-gifts-card:hover .best-gifts-card-subtitle{
+   color: var(--primary-color);
+}
+}

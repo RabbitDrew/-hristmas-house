@@ -1,0 +1,115 @@
+.about {
+  max-width: 1440px;
+  min-width: 380px;
+  width: 100%;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/img-about/snow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 60px 82px;
+}
+
+.about-content__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.about-content-title__wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 152px 100px 60px;
+}
+
+.about-content-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 60px 0;
+
+  gap: 20px;
+}
+
+.about-caption {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 5%;
+  text-transform: capitalize;
+
+  color: var(--primary-color);
+}
+
+.about-title {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 36.48px;
+  letter-spacing: 3.85px;
+  text-transform: uppercase;
+
+  color: var(--font-color);
+}
+
+.about-subtitle {
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 23.68px;
+
+  color: var(--font-color);
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+/*change styles*/
+.about-content-img__wrapper {
+  width: 50%;
+  height: 528px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+/*
+
+.about-content-img__wrapper {
+    width: 100%; 
+    max-width: 638px; 
+    height: 528px; 
+
+
+
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+*/

@@ -1,0 +1,115 @@
+.hero {
+  max-width: 1440px;
+  min-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  background-image: url(../../assets/img-hero/snow-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hero__wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 0;
+
+  background-image: url(../../assets/img-hero/christmass-ball.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 60px 0;
+}
+
+.hero-caption {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+
+  color: var(--hero-font-color);
+}
+
+.hero-title__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 5.8px;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  color: var(--hero-font-color);
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 32px;
+
+  background-color: var(--hero-btn-bg-color);
+
+  border-radius: 20px;
+
+  transition: background-color .5s ease;
+}
+
+@media (pointer:fine) { 
+ .hero-btn:hover {
+  background-color: #fff;
+ }
+}
+
+.hero-btn-title {
+  font-size: 12px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 15.6px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+
+  color: var(--hero-font-color);
+
+  transition: color .5s ease;
+}
+
+@media (pointer:fine) { 
+ .hero-btn:hover .hero-btn-title {
+  color: var(--hero-btn-bg-color);
+ }
+}

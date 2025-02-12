@@ -1,0 +1,161 @@
+.slider {
+  max-width: 1440px; 
+ min-width: 380px;
+ width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/img-slider/snow-slider.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 60px 82px;
+
+  overflow: hidden;
+}
+
+.slider-content__wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+/*slider title*/
+
+.slider-title__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.slider-caption {
+  font-size: 24px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+
+  color: #ffff;
+}
+
+.slider-title {
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 36.48px;
+  letter-spacing: 3.85px;
+  text-transform: uppercase;
+
+  color: #ffff;
+}
+
+/*slider*/
+.slider-win {
+  max-width: 1276px; /*change*/ 
+
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.slider-expo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  transform: translateX(0px);
+  transition: transform .5s ease;
+}
+
+.expo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.expo-title {
+  font-size: 80px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 97.52px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+  color: #ffff;
+}
+
+.expo-img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 20px;
+}
+
+/*slider btns*/
+
+.slider-btn__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.btn {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: #ffff 1px solid;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  transition: background-color 0.5s ease;
+}
+
+@media (pointer:fine) { 
+.btn:hover {
+  background-color: #ffff;
+}
+}
+.arrow {
+  transition: color 0.5s ease;
+}
+@media (pointer:fine) { 
+.btn:hover .arrow {
+  stroke: var(--primary-color);
+}
+}
+
+
+/*disable stiles*/
+.btn--disabled {
+  border: rgba(255, 255, 255, 0.4) 1px solid;
+  pointer-events: none;
+}
+
+.arrow--disabled {
+  stroke: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+}

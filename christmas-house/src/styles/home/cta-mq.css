@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 767px) {
+      .cta__wrapper {
+        width: 100%;
+        gap: 20px;
+      }
+
+      .cta-title {
+        line-height: 36.0px;
+        letter-spacing: 3.7px;
+      }
+      
+}

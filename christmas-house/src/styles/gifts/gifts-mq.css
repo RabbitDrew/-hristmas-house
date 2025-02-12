@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+    .gifts-titel-wrapper{
+        width: 100%;
+        padding: 60px 8px 0 8px;
+    
+    }
+
+    .gifts-tabs-btns__wrapper {
+        padding: 0 13px;
+        gap: 0px;
+    }
+
+    .gifts-tab-btn {
+        padding: 12px 8px ;
+
+    }
+}

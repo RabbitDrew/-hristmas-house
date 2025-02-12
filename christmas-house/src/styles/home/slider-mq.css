@@ -1,0 +1,11 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .slider {
+        padding: 60px 40px;
+      }
+}
+
+@media screen  and (max-width: 768px) {
+    .slider {
+        padding: 60px 8px;
+      }
+}       
